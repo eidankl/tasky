@@ -1,0 +1,9 @@
+<!--Action Menu, because I want a menu item to allow the user add more tasks-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tasky="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add_task"
+        tasky:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Task" />
+
+</menu>
